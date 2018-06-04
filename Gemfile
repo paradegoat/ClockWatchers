@@ -17,7 +17,7 @@ gem 'jbuilder', '~> 2.5'
 
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'database_cleaner'
   gem 'capybara'
@@ -30,4 +30,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise', '~> 4.4', '>= 4.4.3'
