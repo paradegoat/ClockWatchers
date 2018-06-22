@@ -22,7 +22,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'database_cleaner'
   gem 'capybara'
-  gem 'factory_girl_rails', '~> 4.9'
+  gem 'factory_bot_rails', '~> 4.9'
 end
 
 group :development do
@@ -41,4 +41,4 @@ gem 'administrate'
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
-gem 'dotenv-rails', :groups => [:development, :test] 
+gem 'dotenv-rails', :groups => [:development, :test]
