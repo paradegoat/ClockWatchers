@@ -3,5 +3,5 @@
 	<td scope="col"><%= audit_log.user.full_name %></td>
 	<td scope="col"><%= audit_log.start_date %></td>
 	<td scope="col"><%= audit_log.end_date %></td>
-	<td scope="col"><%= audit_log.status %></td>
+	<td scope="col"><%= status_label audit_log.status %></td>
 </tr>
