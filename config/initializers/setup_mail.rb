@@ -9,3 +9,4 @@ if Rails.env.development? || Rails.env.production?
       :authentication       => "plain",
       :enable_starttls_auto => true
     }
+end
