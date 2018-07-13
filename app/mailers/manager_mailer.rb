@@ -1,5 +1,8 @@
 class ManagerMailer < ApplicationMailer
-  default from: "humphreys.geoff@gmail.com"
+  require 'sendgrid-ruby'
+  include SendGrid
+
+  default from: "humphreys.geoff@example.com"
 
   def email manager
     @manager = manager
