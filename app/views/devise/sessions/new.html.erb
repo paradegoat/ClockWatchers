@@ -1,4 +1,11 @@
 <h2>Log in</h2>
+<p>
+  User email: test@test.com
+  <br />
+  or
+  <br />
+  Admin email : admintest@test.com
+</p>
 
 <div class="row">
   <div class="col-md-4">
@@ -10,6 +17,9 @@
 
       <div class="form-group">
         <%= f.label :password, class: "control-label" %><br />
+        <p>
+          password for both is.......password
+        </p>
         <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
       </div>
 
